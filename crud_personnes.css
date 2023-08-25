@@ -1,0 +1,133 @@
+@media all
+{
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(8, 0, 8);
+    color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    width: 100%;
+    text-align: center;
+}
+.header{
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+}
+
+.input input
+{
+    width: 50%;
+    text-align: center;
+    font-size: larger;
+    margin: 5px 0;
+    size: large;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 20px;
+    padding: 0.2%;
+
+}
+.input textarea
+{
+    width: 50%;
+    padding-top: 3%;
+    text-align: center;
+    font-size: larger;
+    margin: 5px 0;
+    size: large;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 20px;
+    padding: 0.2%;
+}
+.Envoi input
+{
+    display: inline;
+    width: 25%;
+    text-align: center;
+    font-size: larger;
+    margin: 5px 0;
+    size: large;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 20px;
+    padding: 0.2%;
+    cursor: pointer;
+}
+.Envoi input:focus{
+    animation: forwards;
+}
+.output
+{
+    width: 90%;
+    display: block;
+    text-align: center;
+    margin-left: 5%;
+}
+ table{
+    text-align: center;
+    width: 100%;
+    font-size: larger;
+    border-radius: 1px solid;
+}
+td{
+    background-color: white;
+    color: black;
+    font-size: bold;
+}
+table ,th ,td
+{
+    border: 1px solid brown;
+    
+}
+input:hover
+{
+background-color: blueviolet;
+}
+input:focus
+{
+    animation: forwards;
+}
+#modifier
+{
+    width: 80%;
+    border-radius:20px;
+    height: 90%;
+    margin: 1px 0px 1px 0px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#supprimer
+{
+    width: 80%;
+    border-radius:20px;
+    height: 90%;
+    margin: 1px 0px 1px 0px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#supprimer:focus, #modifier:focus
+{
+animation: forwards;
+}
+
+
+
+
+
+}
